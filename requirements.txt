@@ -1,0 +1,8 @@
+pvporcupine
+pvrhino
+pvrecorder
+dotenv
+pvrhinodemo
+speech_recognition
+pyaudio
+sounddevice
