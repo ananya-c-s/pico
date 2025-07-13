@@ -62,6 +62,9 @@ python your_script_name.py
 * Then say a command like **"turn on the lights"**.
 * The system will print the recognized intent and slots.
 
+## Working Code Screenshot
+* ![Alt text](/screenshot_output.jpg?raw=true)
+
 ## License
 
 This project is for educational/demonstration purposes. Ensure you comply with Picovoice's licensing for Porcupine and Rhino.
