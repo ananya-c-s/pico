@@ -1,26 +1,26 @@
-
 # Jarvis Voice Assistant (Wake Word + Voice Commands)
 
 This is a simple Python demo of a voice assistant that:
 
 1. Listens for a custom wake word ("Jarvis") using **Picovoice Porcupine**.
 2. Once triggered, listens for specific voice commands using **Picovoice Rhino**.
-Note: Here we have used prebuilt .rhn files and didn't train the porcupine model as I didn't have credits. You can custom train it for a different keyword and another intent too.
-3. 
+   Note: Here we have used prebuilt .rhn files and didn't train the porcupine model as I didn't have credits. You can custom train it for a different keyword and another intent too.
+3.
 4. ## Features
-* **Wake Word Detection**: Activates on the phrase "Jarvis".
-* **Intent Recognition**: Supports custom commands via a Rhino context (`smart_lighting_windows.rhn`).
-* **Cross-platform Support**: Works on systems supported by Picovoice libraries.
+
+- **Wake Word Detection**: Activates on the phrase "Jarvis".
+- **Intent Recognition**: Supports custom commands via a Rhino context (`smart_lighting_windows.rhn`).
+- **Cross-platform Support**: Works on systems supported by Picovoice libraries.
 
 ## Requirements
 
-* Python 3.7+
-* Dependencies:
+- Python 3.7+
+- Dependencies:
 
-  * `pvporcupine`
-  * `pvrhino`
-  * `pvrecorder`
-  * `dotenv`
+  - `pvporcupine`
+  - `pvrhino`
+  - `pvrecorder`
+  - `dotenv`
 
 ## Setup
 
@@ -58,12 +58,13 @@ python your_script_name.py
 
 ## Usage
 
-* Say **"Jarvis"** to activate.
-* Then say a command like **"turn on the lights"**.
-* The system will print the recognized intent and slots.
+- Say **"Jarvis"** to activate.
+- Then say a command like **"turn on the lights"**.
+- The system will print the recognized intent and slots.
 
-## Working Code Screenshot
-* ![Alt text](/screenshot_output.jpg?raw=true)
+## Working Code Video
+
+- Link: https://youtu.be/N0AUzgKbhXY
 
 ## License
 
